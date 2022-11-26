@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+nav{
+
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    box-shadow: 5px 5px 3px gray;
+}
+.navbar ul li{
+	margin-left: 20px;
+	text-align: center;
+	color: black;
+}
+.navbar ul li a{
+	color: navy;
+	font-size: 15px;
+}
+.navbar ul li a:hover{
+	color:tomato;
+	border: 1px solid red;
+}
+#inter{
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 2), 0 6px 10px 0 rgba(0, 0, 0, 14);
+	border-radius: 6px;
+	border-bottom: 1px solid red;
+	border-top: 1px solid navy;
+	background-color: snow;
+}
+.tit{
+	border-bottom: 1px solid red;
+	text-align: center;
+	margin-top: 50px;
+}
+.tit2{
+	border-bottom: px solid red;
+	margin-top: 50px;
+}
+.card{
+	width: 290px;
+	height: 270px;
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 2), 0 6px 15px 0 rgba(0, 0, 0, 19);
+	align-items: center;
+	display: inline flex;
+}
+.ali{
+	align-items: center;
+	justify-content: center;
+}
+#pic{
+	margin-top: 25px;
+}
+#newbtn{
+	width:300px;
+	height: 50px;
+	align-items: center;
+
+}
+.card2{
+	width: 0%;
+	height: 0%;
+	margin-right: px;
+}
+#tit3{
+     border-bottom: 1px solid red;
+	 margin-top: 50px;
+
+}
+
+#tit4{
+	 border-bottom: 1px solid red;
+	 margin-top: 50px;
+}
+#tit4 a{
+	margin: 20px;
+}
+.listg{
+	margin-bottom: 40px;
+}
+.shad{
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 2), 0 6px 15px 0 rgba(0, 0, 0, 19);
+	border-radius: 10px;
+	border-bottom: 3px solid red;
+	border-top: 3px solid navy;
+	background-color: snow;
+}
+.shadow{
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 2), 0 6px 15px 0 rgba(0, 0, 0, 19);
+	margin-top: 30px;
+	border-radius: 8px;
+	background-color: silver;
+	border-bottom: 1px solid red;
+}
+.cen{
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+}/*
+.flx{
+	display: inline-flex;
+}*/
+#alltop{
+	/*box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 2), 0 6px 15px 0 rgba(0, 0, 0, 19);*/
+	margin-top: 40px;
+	border-top: 3px solid navy;
+	height: auto !important;
+}
+.col9{
+	height: auto !important;
+}
+.img{
+	border-radius: 10px;
+}
+p{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.china{
+	text-decoration: none;
+	text-underline-position: none;
+}
+.tawi{
+	display: flex;
+}
+/*#post img{
+	transition-property: all;
+	transition-duration: 0.9s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+}
+*/
+.swiss{
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 2), 0 4px 12px 0 rgba(0, 0, 0, 15);
+	border-radius: 4px;
+	border-top: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
