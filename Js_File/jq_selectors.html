@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+     <style type="text/css">
+     	#box{
+     		padding: 10px;
+     		border: 1px solid #000;
+     	}
+     </style>
+</head>
+<body>
+	<div id="box" class="test">
+
+		<h2> Test box </h2>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	</p>
+		
+	</div>
+
+
+	<ul id="list">
+		<li>html</li>
+		<li class="test">css</li>
+		<li>javascript</li>
+		<li class="test">jquery</li>
+		<li>node.js</li>
+		<li class="test">angulor.js</li>
+		<li>react.js</li>
+	</ul>
+
+	<script type="text/javascript">
+		
+        $(document).ready(function(){
+		$('#list li').css('border','2px solid red');
+		$('.test').css('border','20px solid green');
+		$('#list').css('color','blue');
+		//$('ul li:eq(3)').css('color','red');
+		//$('ul li:gt(2)').css('background','gray');
+		$('ul li:lt(2)').css('background','gray');
+		
+	});
+
+
+	</script>
+
+</body>
+</html>
